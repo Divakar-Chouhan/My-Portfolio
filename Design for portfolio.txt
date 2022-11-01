@@ -1,0 +1,8 @@
+1. Navbar design : Magic Navigation Menu Indicator using Html CSS & Javascript | Curve Outside Effects
+in portfolio playlist.
+
+2. For loading of the paging i can use falling stars animations (Falling Stars CSS Animation - Only Using CSS & HTML
+in portfolio playlist).
+
+
+Prototype design: After having a good picture of yourself for the portfolio I can add the animation of "how to make Eyeballs that Follow You Around" from portdolio playlist.

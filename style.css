@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+/* navbar */
+nav img{
+    height:100%;
+    width:60px;
+    margin:15px 0px;
+}
+#header{
+    background: url("./images/banner-bg.png") no-repeat center fixed;
+    height:100vh;
+    background-size:cover;
+}
+nav{
+    display: flex;
+    width:88%;
+    margin:auto;
+}
+.list{
+    height:80px;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    position:absolute;
+    right:10%;
+}
+
+.list li{
+    margin: 0px 30px;
+    font-size:18px;
+    padding: 30px 0px;
+}
+.list li a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+
+}
+
+/* home */
+
+#home{
+    width:88%;
+    margin:auto;
+    display:flex;
+    height:85vh;
+    padding-top:10%;
+}
+.heading-image img{
+    width:100%;
+    height:80%;
+    padding-left:10%;
+    position:relative;
+    /* top:120px; */
+    animation:updown 3s linear infinite;
+    
+}
+@keyframes updown{    
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+    
+}
+.heading-image{
+    width:150%;
+    height:auto;
+}
+.Welcome-section{
+    padding-top:20px;
+    color:white;
+}
+.Welcome-section h1{
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    font-size: 20px;
+    padding: 10px 2%;
+    letter-spacing: 0.8px;
+    font-weight:700;
+    margin-bottom: 16px;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.Welcome-section h2{
+    font-size:3vw;
+    letter-spacing: 0.8px;
+    -webkit-text-stroke: 0.1vw #383d52;
+    color:transparent;
+    position:relative;
+}
+h2::before{
+    content: attr(data-text);
+    position:absolute;
+    left:0;
+    top:0;
+    width:0;
+    height:100%;
+    color:#C689C6;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #C689C6;
+    overflow:hidden; 
+    animation: animate 6s linear infinite;
+    white-space: nowrap; 
+}
+@keyframes animate{
+    0%,10%,100%{
+        width:0;
+    }
+    70%,90%{
+        width:89%;
+    }
+}
+.Welcome-section p{
+    color:#B8B8B8;
+    letter-spacing: 0.8px;
+    margin:10px 0px;
+    line-height:1.8;
+}
+.Welcome-section img{
+    width:20px;
+    position:relative;
+    top:5px;
+    left:1px;
+}
+
+.Welcome-section a{
+    text-decoration: none;
+    background-color: transparent;
+    border:none;
+    color:#ffffff;
+    font-weight:bold;
+    cursor:pointer;
+    display:hidden;
+}
+
